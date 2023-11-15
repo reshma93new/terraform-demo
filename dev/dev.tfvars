@@ -1,5 +1,5 @@
 # Bastion node settings
-bastion_instance_name = "sre-challenge-bastion"
+bastion_instance_name = "sre-bastion"
 bastion_instance_type = "t2.micro"
 bastion_ssh_key       = "reshma"
 az                    = "us-east-1a"
@@ -19,7 +19,7 @@ tags = {
   Name        = "sre-challenge-bastion"
   Environment = "Dev"
   Owner       = "reshma"
-  Project     = "SRE Challenge"
+  Project     = "SRE"
 }
 
 create_eip = false
